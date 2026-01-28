@@ -16,7 +16,7 @@ headers = {
 
 # Les données (le corps de la requête)
 data = {
-  "prompt" => "Liste moi 5 parfums de glace différents :",
+  "prompt" => "Liste moi 5 parfums de glace différents : \n vanille, chocolat, fraise, citron, pistache. Liste moi 5 autres parfums de glace différents :",
   "max_tokens" => 50,
   "temperature" => 0.5,
   "model" => "babbage-002"
